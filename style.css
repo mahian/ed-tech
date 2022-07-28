@@ -1,3 +1,31 @@
 :root{
     --primary-color: #289bde;
+    --primary-color-dark: #008bdb;
+}
+.carousel-item img {
+    filter: brightness(60%);
+}
+.primary-btn{
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.primary-btn:hover{
+    background-color: var(--primary-color-dark);
+    color: white;
+}
+.testimonial-control-next, .testimonial-control-prev {
+    background-color: var(--primary-color);
+    width: 40px;
+    height: 40px;
+    top: 45%;
+    border-radius: 50%;
+}
+.testimonial-control-next{
+    right: -20px;
+}
+.testimonial-control-prev{
+    left: -20px;
 }
