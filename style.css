@@ -16,6 +16,12 @@
     background-color: var(--primary-color-dark);
     color: white;
 }
+.modal-box{
+    background-color: var(--primary-color);
+}
+.primary-text{
+    color: var(--primary-color);
+}
 .testimonial-control-next, .testimonial-control-prev {
     background-color: var(--primary-color);
     width: 40px;
